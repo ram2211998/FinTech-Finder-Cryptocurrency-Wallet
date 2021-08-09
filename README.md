@@ -1,6 +1,6 @@
 # FinTech Finder Cryptocurrency Wallet
 
-![FinTech_Finder_Cryptocurrency_Wallet]()
+![FinTech_Finder_Cryptocurrency_Wallet](https://github.com/ScientiaCapital/FinTech-Finder-Cryptocurrency-Wallet/blob/main/Images/crypto_wallet2.jpeg)
 
 ---
 
