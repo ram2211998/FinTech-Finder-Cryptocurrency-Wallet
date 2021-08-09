@@ -1,24 +1,28 @@
-# Blockchain Backed Ledger
+# FinTech Finder Cryptocurrency Wallet
 
-![Blockchain_Backed_Ledger](https://github.com/ScientiaCapital/Blockchain-Backed-Ledger/blob/main/Images/BlockChain_System.jpeg)
+![FinTech_Finder_Cryptocurrency_Wallet]()
 
 ---
 
 ## Technologies
 
-Before attempting to execute any Python code in pychain.py, it is imperative that your development environment holds the following modules:
+Before attempting to execute any Python code in crypto_wallet.py or fintech_finder, it is imperative that your development environment holds the following modules:
 
-[streamlit](https://streamlit.io/) - Script-to-web application library
+[os](https://docs.python.org/3/library/os.html) - Operating system module
+
+[requests](https://docs.python-requests.org/en/master/index.html) - HTTP module
+
+[dotenv](https://pypi.org/project/python-dotenv/) - .env file module
+
+[bip44](https://pypi.org/project/bip44/) - Python-based deterministic wallet module
+
+[web3](https://web3py.readthedocs.io/en/stable/) - Module for Ethereum interaction via Python
 
 [dataclasses](https://docs.python.org/3/library/dataclasses.html) - Data class decorator module
 
 [typing](https://docs.python.org/3/library/typing.html) - Support for type hints module
 
-[datetime](https://docs.python.org/3/library/datetime.html) - Basic date and time types module
-
-[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module
-
-[hashlib](https://docs.python.org/3/library/hashlib.html) - Hash and message digest library
+[streamlit](https://streamlit.io/) - Script-to-web application library
 
 ---
 
@@ -27,24 +31,28 @@ Before attempting to execute any Python code in pychain.py, it is imperative tha
 With your _Python 3.7+_ environment, run the following commands via CLI:
 
 ```
-import streamlit as st
-from dataclasses import dataclass
-from typing import Any, List
-import datetime as datetime
-import pandas as pd
-import hashlib
+pip install web3==5.17
+pip install eth-tester
+pip install mnemonic
+pip install bip44
 
 ```
 
----
+## Transaction Verification
 
-## Examples
+The following section shows the results of a successful Ethereum wallet transaction. For our example transaction, we compensated Jo for four hours.
 
-![Example_One](https://github.com/ScientiaCapital/Blockchain-Backed-Ledger/blob/main/Images/TransactionBlockchain.png)
+## Current Address Balance
+
+![Example_One]()
+
+## Transaction Details
 
 ![Example_Two]()
 
-![Example_Two]()
+## Recipient's Address Balance
+
+![Example_Three]()
 
 ---
 
@@ -52,11 +60,11 @@ import hashlib
 
 Clone repository onto your personal machine.
 
-Within your Python 3.7+ environment, navigate to the directory in which the pychain.py file from this repository is located.
+Within your Python 3.7+ environment, navigate to the directory in which the fintech_finder.py file from this repository is located.
 
 Run the following command to launch the web application:
 
-streamlit run pychain.py
+streamlit run fintech_finder.py
 
 ---
 
