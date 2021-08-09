@@ -29,7 +29,6 @@ Before attempting to execute any Python code in crypto_wallet.py or fintech_find
 ## Installation Guide
 
 With your _Python 3.7+_ environment, run the following commands via CLI:
-
 ```
 pip install web3==5.17
 pip install eth-tester
@@ -37,10 +36,9 @@ pip install mnemonic
 pip install bip44
 
 ```
-
 ## Transaction Verification
 
-The following section shows the results of a successful Ethereum wallet transaction. For our example transaction, we compensated Jo for four hours.
+The following section shows the results of a successful Ethereum wallet transaction. 
 
 ## Current Address Balance
 
