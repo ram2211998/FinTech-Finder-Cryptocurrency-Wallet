@@ -31,7 +31,7 @@ Before attempting to execute any Python code in crypto_wallet.py or fintech_find
 With your _Python 3.7+_ environment, run the following commands via CLI:
 ```
 pip install web3==5.17
-pip install eth-tester
+pip install eth-tester==0.5.0b3
 pip install mnemonic
 pip install bip44
 

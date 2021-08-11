@@ -76,7 +76,6 @@ from typing import Any, List
 # * `get_balance`
 # * `send_transaction`
 
-# @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
 from crypto_wallet import generate_account
@@ -129,7 +128,6 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 # Create a variable named `account`. Set this variable equal to a call on the
 # `generate_account` function. This function will create the Fintech Finder
 # customer’s (in this case, your) HD wallet and Ethereum account.
-
 
 #  Call the `generate_account` function and save it as the variable `account`
 account = generate_account()
@@ -233,7 +231,6 @@ st.sidebar.markdown("## Total Wage in Ether")
 # the value of the `hours` variable. Save this calculation’s output as a
 # variable named `wage`.
 # * Write the `wage` variable to the Streamlit sidebar by using `st.sidebar.write`.
-
 
 # Calculate total `wage` for the candidate by multiplying the candidate’s hourly
 # rate from the candidate database (`candidate_database[person][3]`) by the

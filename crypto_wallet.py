@@ -8,7 +8,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-load_dotenv("SAMPLE.env")
+load_dotenv("SAMPLE")
 from bip44 import Wallet
 from web3 import Account
 from web3.auto.infura.kovan import w3
