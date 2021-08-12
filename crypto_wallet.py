@@ -18,7 +18,7 @@ from web3.gas_strategies.time_based import medium_gas_price_strategy
 def generate_account():
     """Create a digital wallet and Ethereum account from a mnemonic seed phrase."""
     # Fetch mnemonic from environment variable.
-    mnemonic = os.getenv("MNEMONIC")
+    mnemonic = str(os.getenv("MNEMONIC.env"))
 
     # Create Wallet Object
     wallet = Wallet(mnemonic)
