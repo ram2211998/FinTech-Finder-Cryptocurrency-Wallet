@@ -42,15 +42,11 @@ The following section shows the results of a successful Ethereum wallet transact
 
 ## Current Address Balance
 
-![Example_One]()
-
-## Transaction Details
-
-![Example_Two]()
+![Example_One](https://github.com/ScientiaCapital/FinTech-Finder-Cryptocurrency-Wallet/blob/main/Images/current_balance.png)
 
 ## Recipient's Address Balance
 
-![Example_Three]()
+![Example_Two]()
 
 ---
 
